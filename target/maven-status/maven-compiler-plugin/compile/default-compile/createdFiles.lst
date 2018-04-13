@@ -1,6 +1,0 @@
-com\vole\service\impl\ManagerServiceImpl.class
-com\vole\entity\Manager.class
-com\vole\service\ManagerService.class
-com\vole\controller\ManagerController.class
-com\vole\dao\ManagerDao.class
-com\vole\realm\MyRealm.class

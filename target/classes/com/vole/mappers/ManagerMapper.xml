@@ -9,7 +9,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result property="userName" column="userName"/>
 		<result property="password" column="password"/>
 	</resultMap>
-		
 
-	
+
+	<select id="getByUserName" parameterType="String" resultMap="ManagerResult">
+		select * from t_manager where userName=#{userName}
+	</select>
+
 </mapper> 
