@@ -3,7 +3,7 @@ package com.vole.util;
 import org.apache.shiro.crypto.hash.Md5Hash;
 
 /**
- * 编写者： Wu
+ * 编写者： vole
  * Time： 2018/4/13.11:41
  * 内容： Md5加密工具类
  */

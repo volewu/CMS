@@ -3,7 +3,7 @@ package com.vole.service;
 import com.vole.entity.Manager;
 
 /**
- * 编写者： Wu
+ * 编写者： vole
  * Time： 2018/4/12.16:32
  * 内容：用户管理服务类
  */
@@ -14,5 +14,5 @@ public interface ManagerService {
      * @param userName
      * @return
      */
-    public Manager getByUserName(String userName);
+     Manager getByUserName(String userName);
 }

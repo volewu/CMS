@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vole.dao.LinkDao">
+
+	<resultMap type="Link" id="LinkResult">
+		<result property="id" column="id"/>
+		<result property="name" column="name"/>
+		<result property="url" column="url"/>
+		<result property="sortNo" column="sortNo"/>
+	</resultMap>
+
+	<select id="list" parameterType="map" resultMap="LinkResult">
+		SELECT * FROM t_link
+		ORDER BY sortNo ASC
+	</select>
+
+
+</mapper> 

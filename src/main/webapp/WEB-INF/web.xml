@@ -43,6 +43,10 @@
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
+	
+	<listener>
+		<listener-class>com.vole.service.impl.InitComponet</listener-class>
+	</listener>
 
 
 	<!-- 添加对springmvc的支持 -->

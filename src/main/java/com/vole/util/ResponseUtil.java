@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 编写者： Wu
+ * 编写者： vole
  * Time： 2018/4/13.14:12
  * 内容： ajax 返回输出流工具类
  */

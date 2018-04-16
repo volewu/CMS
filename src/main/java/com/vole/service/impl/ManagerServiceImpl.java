@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 
 /**
- * 编写者： Wu
+ * 编写者： vole
  * Time： 2018/4/12.16:33
  * 内容：用户管理服务接口实现类
  */

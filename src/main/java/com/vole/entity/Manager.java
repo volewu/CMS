@@ -1,7 +1,7 @@
 package com.vole.entity;
 
 /**
- * 编写者： Wu
+ * 编写者： vole
  * Time： 2018/4/12.16:31
  * 内容：Manager 用户管理实现类
  */

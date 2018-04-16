@@ -15,7 +15,7 @@ import org.apache.shiro.subject.PrincipalCollection;
 import javax.annotation.Resource;
 
 /**
- * 编写者： Wu
+ * 编写者： vole
  * Time： 2018/4/12.16:27
  * 内容：自定义 realm
  */
