@@ -24,4 +24,16 @@ public class ArticleServiceImpl implements ArticleService {
     public List<Article> getNewest() {
         return articleDao.getNewest();
     }
+
+    public List<Article> getRecommend() {
+        return articleDao.getRecommend();
+    }
+
+    public List<Article> getSlide() {
+        return articleDao.getSlide();
+    }
+
+    public List<Article> getIndex(Integer typeId) {
+        return articleDao.getIndex(typeId);
+    }
 }

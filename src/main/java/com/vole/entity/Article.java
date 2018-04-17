@@ -117,4 +117,22 @@ public class Article {
     public void setKeyWords(String keyWords) {
         this.keyWords = keyWords;
     }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", publishDate=" + publishDate +
+                ", content='" + content + '\'' +
+                ", summary='" + summary + '\'' +
+                ", titleColor='" + titleColor + '\'' +
+                ", click=" + click +
+                ", isRecommend=" + isRecommend +
+                ", isSlide=" + isSlide +
+                ", slideImage='" + slideImage + '\'' +
+                ", arcType=" + arcType +
+                ", keyWords='" + keyWords + '\'' +
+                '}';
+    }
 }

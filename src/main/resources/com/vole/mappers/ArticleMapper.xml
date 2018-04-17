@@ -23,4 +23,16 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		SELECT * FROM t_article ORDER by publishDate DESC limit 0,7
 	</select>
 
+	<select id="getRecommend" resultMap="ArticleResult">
+		SELECT * FROM t_article WHERE isRecommend=1 ORDER by publishDate DESC limit 0,7
+	</select>
+
+	<select id="getSlide" resultMap="ArticleResult">
+		SELECT * FROM t_article WHERE isSlide=1 ORDER by publishDate DESC limit 0,5
+	</select>
+
+	<select id="getIndex" parameterType="Integer" resultMap="ArticleResult">
+		SELECT * FROM t_article WHERE typeId=#{typeId} ORDER by publishDate DESC limit 0,8
+	</select>
+
 </mapper> 

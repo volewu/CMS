@@ -12,6 +12,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.ServletContext;
@@ -56,6 +57,21 @@ public class InitComponet implements ApplicationContextAware, ServletContextList
         ArticleService articleService = (ArticleService) applicationContext.getBean("articleService");
         List<Article> articleList = articleService.getNewest();
         application.setAttribute("articleList", articleList);
+
+        List<Article> recommendArticleList = articleService.getRecommend();
+        application.setAttribute("recommendArticleList", recommendArticleList);
+
+        List<Article> slideArticleList = articleService.getSlide();
+        application.setAttribute("slideArticleList", slideArticleList);
+
+        List<Object> allIndexArticleList = new ArrayList<Object>();
+        if (arcTypeList != null && arcTypeList.size() != 0) {
+            for (ArcType anArcTypeList : arcTypeList) {
+                List<Article> subArticleList = articleService.getIndex(anArcTypeList.getId());
+                allIndexArticleList.add(subArticleList);
+            }
+        }
+        application.setAttribute("allIndexArticleList", allIndexArticleList);
     }
 
     //销毁时执行
