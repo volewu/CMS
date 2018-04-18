@@ -42,7 +42,6 @@ public class InitComponet implements ApplicationContextAware, ServletContextList
 
     /**
      * 刷新application缓存方法
-     *
      * @param application
      */
     private void refreshSystem(ServletContext application) {
@@ -55,8 +54,8 @@ public class InitComponet implements ApplicationContextAware, ServletContextList
         application.setAttribute("arcTypeList", arcTypeList);
 
         ArticleService articleService = (ArticleService) applicationContext.getBean("articleService");
-        List<Article> articleList = articleService.getNewest();
-        application.setAttribute("articleList", articleList);
+        List<Article> newestArticleList = articleService.getNewest();
+        application.setAttribute("newestArticleList", newestArticleList);
 
         List<Article> recommendArticleList = articleService.getRecommend();
         application.setAttribute("recommendArticleList", recommendArticleList);

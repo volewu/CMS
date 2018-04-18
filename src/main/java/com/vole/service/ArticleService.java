@@ -3,6 +3,7 @@ package com.vole.service;
 import com.vole.entity.Article;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * 编写者： vole
@@ -35,4 +36,46 @@ public interface ArticleService {
      * @return
      */
     List<Article> getIndex(Integer typeId);
+
+    /**
+     *  根据 id 查询帖子
+     * @param id
+     * @return
+     */
+    Article findById(Integer id);
+
+    /**
+     * 通过 id 得到上一篇帖子
+     * @param id
+     * @return
+     */
+    Article getLastArticle(Integer id);
+
+    /**
+     * 通过 id 得到下一篇帖子
+     * @param id
+     * @return
+     */
+    Article getNextArticle(Integer id);
+
+    /**
+     * 更新帖子
+     * @param article
+     * @return
+     */
+    Integer update(Article article);
+
+    /**
+     * 根据条件分页查询帖子
+     * @param map
+     * @return
+     */
+    List<Article> list(Map<String,Object> map);
+
+    /**
+     * 获取总记录数
+     * @param map
+     * @return
+     */
+    Long getTotal(Map<String,Object> map);
 }

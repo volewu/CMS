@@ -5,11 +5,11 @@
 <div class="menu">
     <div class="w960 m960">
         <ul>
-            <li class="first"><a href="/index.jsp">首页</a></li>
+            <li class="first"><a href="${pageContext.request.contextPath}/index.jsp">首页</a></li>
 
             <c:forEach var="arcType" items="${arcTypeList}">
                 <li>
-                    <a href="${pageContext.request.contextPath}/arcType/${arcType.id}">${arcType.typeName}</a>
+                    <a href="${pageContext.request.contextPath}/arcType/${arcType.id}.html">${arcType.typeName}</a>
                 </li>
             </c:forEach>
 

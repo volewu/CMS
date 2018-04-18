@@ -18,10 +18,10 @@ public interface ArcTypeService {
      */
     List<ArcType> list(Map<String, Object> map);
 
-//    /**
-//     * 根据 id 查找帖子类型
-//     * @param id
-//     * @return
-//     */
-//    ArcType findById(Integer id);
+    /**
+     * 根据 id 查找帖子类型
+     * @param id
+     * @return
+     */
+    ArcType findById(Integer id);
 }

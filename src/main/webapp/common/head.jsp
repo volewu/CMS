@@ -12,6 +12,7 @@
                     target="_blank">广告业务</a>&nbsp;]
                 &nbsp;<input type="text" id="bdcsMain" class="search"/>&nbsp;<input type="submit"
                                                                                     value="搜索"/>
+                <%--百度站内搜索，需要自己设定自己网站的参数--%>
             </form>
         </div>
 

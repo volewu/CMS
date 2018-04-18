@@ -26,7 +26,7 @@ public class ArcTypeServiceImpl implements ArcTypeService {
         return arcTypeDao.list(map);
     }
 
-//    public ArcType findById(Integer id) {
-//        return arcTypeDao.findById(id);
-//    }
+    public ArcType findById(Integer id) {
+        return arcTypeDao.findById(id);
+    }
 }

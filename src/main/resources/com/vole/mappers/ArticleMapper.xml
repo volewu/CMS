@@ -1,38 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
-PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.vole.dao.ArticleDao">
 
-	<resultMap type="Article" id="ArticleResult">
-		<result property="id" column="id"/>
-		<result property="title" column="title"/>
-		<result property="publishDate" column="publishDate"/>
-		<result property="content" column="content"/>
-		<result property="summary" column="summary"/>
-		<result property="titleColor" column="titleColor"/>
-		<result property="click" column="click"/>
-		<result property="isRecommend" column="isRecommend"/>
-		<result property="isSlide" column="isSlide"/>
-		<result property="slideImage" column="slideImage"/>
-		<!--外键关联-->
-		<association property="arcType" column="typeId" select="com.vole.dao.ArcTypeDao.findById"></association>
-	</resultMap>
+    <resultMap type="Article" id="ArticleResult">
+        <result property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="publishDate" column="publishDate"/>
+        <result property="content" column="content"/>
+        <result property="summary" column="summary"/>
+        <result property="titleColor" column="titleColor"/>
+        <result property="click" column="click"/>
+        <result property="isRecommend" column="isRecommend"/>
+        <result property="isSlide" column="isSlide"/>
+        <result property="slideImage" column="slideImage"/>
+        <!--外键关联-->
+        <association property="arcType" column="typeId"
+                     select="com.vole.dao.ArcTypeDao.findById"/>
+    </resultMap>
 
-	<select id="getNewest" resultMap="ArticleResult">
+    <select id="getNewest" resultMap="ArticleResult">
 		SELECT * FROM t_article ORDER by publishDate DESC limit 0,7
 	</select>
 
-	<select id="getRecommend" resultMap="ArticleResult">
+    <select id="getRecommend" resultMap="ArticleResult">
 		SELECT * FROM t_article WHERE isRecommend=1 ORDER by publishDate DESC limit 0,7
 	</select>
 
-	<select id="getSlide" resultMap="ArticleResult">
+    <select id="getSlide" resultMap="ArticleResult">
 		SELECT * FROM t_article WHERE isSlide=1 ORDER by publishDate DESC limit 0,5
 	</select>
 
-	<select id="getIndex" parameterType="Integer" resultMap="ArticleResult">
+    <select id="getIndex" parameterType="Integer" resultMap="ArticleResult">
 		SELECT * FROM t_article WHERE typeId=#{typeId} ORDER by publishDate DESC limit 0,8
 	</select>
+
+    <select id="findById" parameterType="Integer" resultMap="ArticleResult">
+		SELECT * FROM t_article WHERE id=#{id}
+	</select>
+
+    <select id="getLastArticle" parameterType="Integer" resultMap="ArticleResult">
+        SELECT * FROM t_article WHERE id &lt; #{id} ORDER BY id DESC limit 1;
+    </select>
+
+    <select id="getNextArticle" parameterType="Integer" resultMap="ArticleResult">
+        SELECT * FROM t_article WHERE id &gt; #{id} ORDER BY id ASC limit 1;
+    </select>
+
+    <update id="update" parameterType="Article">
+        UPDATE t_article
+        <set>
+            <if test="click!=0">
+                click=#{click}
+            </if>
+        </set>
+        WHERE id=#{id}
+    </update>
+
+    <select id="list" parameterType="Map" resultMap="ArticleResult">
+        SELECT * FROM t_article
+        <where>
+            <if test="typeId!=null">
+                AND typeId=#{typeId}
+            </if>
+        </where>
+        ORDER BY publishDate DESC
+        <if test="start!=null || size!=null">
+            limit #{start},#{size}
+        </if>
+    </select>
+
+    <select id="getTotal" parameterType="Map" resultType="Long">
+        SELECT count(*) FROM t_article
+        <where>
+            <if test="typeId!=null">
+                typeId=#{typeId}
+            </if>
+        </where>
+    </select>
 
 </mapper> 

@@ -8,7 +8,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>CMS 内容管理系统</title>
-    <META NAME="Author" CONTENT="Java1234_小锋老师">
+    <META NAME="Author" CONTENT="vole">
     <meta name="keywords" content="Java内容管理系统,JavaCMS,Java 开源,Java 爬虫,JavaSEO,Java CMS"/>
     <meta name="description"
           content="CMS 专注于研发 Java 建站,Java 爬虫,JavaSEO 教程.传授广大学员用 Java 技术来实现互联网资源的搬运,整合汇聚互联网资源建站,顺便获取一些搬运费补贴家用."/>
@@ -61,7 +61,7 @@
                 <div class="dataHeader">最近更新</div>
                 <div class="datas">
                     <ul>
-                        <c:forEach var="article" items="${articleList}">
+                        <c:forEach var="article" items="${newestArticleList}">
                             <li><a target="_blank"
                                    href="${pageContext.request.contextPath}/article/${article.id}.html"
                                    title="${article.title}">
@@ -117,10 +117,11 @@
                 <div class="datas">
                     <ul>
                         </c:if>
-                        <li>[<fmt:formatDate value="${indexArticle.publishDate }" pattern="MM-dd"/>]&nbsp;&nbsp;<a
-                                href="${pageContext.request.contextPath}/article/${indexArticle.id }.html"
-                                title="${indexArticle.title }"><font
-                                color="${indexArticle.titleColor }">${fn:substring(indexArticle.title,0,18) }</font></a>
+                        <li>[<fmt:formatDate value="${indexArticle.publishDate }" pattern="MM-dd"/>]&nbsp;&nbsp;
+                            <a target="_blank"
+                               href="${pageContext.request.contextPath}/article/${indexArticle.id }.html"
+                               title="${indexArticle.title }"><font
+                                    color="${indexArticle.titleColor }">${fn:substring(indexArticle.title,0,16) }</font></a>
                         </li>
                         <c:if test="${oneStatus.last }">
                     </ul>
