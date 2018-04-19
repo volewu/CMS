@@ -29,7 +29,6 @@ public class MyRealm extends AuthorizingRealm{
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        // TODO Auto-generated method stub
         return null;
     }
 

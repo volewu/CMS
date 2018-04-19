@@ -61,4 +61,8 @@ public class ArticleServiceImpl implements ArticleService {
     public Long getTotal(Map<String, Object> map) {
         return articleDao.getTotal(map);
     }
+
+    public Integer add(Article article) {
+        return articleDao.add(article);
+    }
 }

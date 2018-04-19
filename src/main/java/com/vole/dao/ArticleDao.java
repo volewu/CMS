@@ -78,4 +78,11 @@ public interface ArticleDao {
      * @return
      */
     Long getTotal(Map<String,Object> map);
+
+    /**
+     * 添加帖子
+     * @param article
+     * @return
+     */
+    Integer add(Article article);
 }

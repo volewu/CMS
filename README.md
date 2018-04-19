@@ -1,6 +1,13 @@
 # CMS
  SSM 实用网站 CMS 内容管理系统
  
+ 
+ #### 未实现的功能
+ 图片压缩
+ 畅言的配置
+ 百度站内搜索的配置
+ qq 群与 qq 的配置
+ 
  #### taglib 标签
  * <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>:用来处理函数的标签
  ```$xslt
