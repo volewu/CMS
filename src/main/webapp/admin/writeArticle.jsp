@@ -5,10 +5,10 @@
   Time: 11:15
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html lang="zh-CN">
 <head>
     <title>写帖子页面</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.3.3/themes/default/easyui.css">
@@ -103,7 +103,7 @@
                <td valign="top">帖子内容：</td>
                <td>
                    <%--// TODO: 2018/4/19 此处报红并无影响  添加隐藏域 方便数据转换--%>
-                   <script id="editor" type="text/javascript" style="width:1000px;height: 500px"></script>
+                   <script id="editor" type="text/javascript" style="width:800px;height: 500px"></script>
                    <input type="hidden" id="content" name="content"/>
 
                </td>

@@ -51,6 +51,33 @@
     <update id="update" parameterType="Article">
         UPDATE t_article
         <set>
+            <if test="title!=null and title!='' ">
+                title=#{title},
+            </if>
+            <if test="publishDate!=null">
+                publishDate=#{publishDate},
+            </if>
+            <if test="content!=null and content!='' ">
+                content=#{content},
+            </if>
+            <if test="summary!=null and summary!='' ">
+                summary=#{summary},
+            </if>
+            <if test="titleColor!=null and titleColor!='' ">
+                titleColor=#{titleColor},
+            </if>
+            <if test="isRecommend!=null ">
+                isRecommend=#{isRecommend},
+            </if>
+            <if test="isSlide!=null ">
+                isSlide=#{isSlide},
+            </if>
+            <if test="arcType.id!=null ">
+                typeId=#{arcType.id},
+            </if>
+            <if test="keyWords!=null and keyWords!='' ">
+                keyWords=#{keyWords},
+            </if>
             <if test="click!=0">
                 click=#{click}
             </if>

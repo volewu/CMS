@@ -1,10 +1,15 @@
 package com.vole.controller.admin;
 
 import com.vole.entity.Article;
+import com.vole.entity.PageBean;
 import com.vole.service.ArticleService;
 import com.vole.service.impl.InitComponent;
 import com.vole.util.DateUtil;
 import com.vole.util.ResponseUtil;
+
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+import net.sf.json.JsonConfig;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +19,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -61,7 +69,7 @@ public class ArticleAdminController {
         if (article.getId() == null) {//添加
             resultTotal = articleService.add(article);
         } else {//修改
-
+            resultTotal = articleService.update(article);
         }
         StringBuffer result = new StringBuffer();
         if (resultTotal > 0) {
@@ -73,6 +81,52 @@ public class ArticleAdminController {
             result.append("<script language='javascript'>alert('提交失败，请联系管理员');</script>");
         }
         ResponseUtil.write(response, result);
+        return null;
+    }
+
+    /**
+     * 根据条件分页查询帖子
+     *
+     * @param page
+     * @param rows
+     * @param response
+     * @return
+     */
+    @RequestMapping("/list")
+    public String list(@RequestParam(value = "page", required = false) String page,
+                       @RequestParam(value = "rows", required = false) String rows,
+                       HttpServletResponse response) throws Exception {
+        PageBean pageBean = new PageBean(Integer.parseInt(page), Integer.parseInt(rows));
+        System.err.println(page + "---" + rows + "--" + pageBean);
+        Map<String, Object> map = new HashMap<String, Object>();
+        map.put("start", pageBean.getStart());
+        map.put("size", pageBean.getPageSize());
+        List<Article> articleList = articleService.list(map);
+        Long total = articleService.getTotal(map);
+        JSONObject result = new JSONObject();
+        JsonConfig jsonConfig = new JsonConfig();
+        //日期转换
+        jsonConfig.registerJsonValueProcessor(java.util.Date.class, new DateJsonValueProcessor("yyyy-MM-dd"));
+        JSONArray jsonArray = JSONArray.fromObject(articleList, jsonConfig);
+        System.err.println(jsonArray);
+        result.put("rows", jsonArray);
+        result.put("total", total);
+        ResponseUtil.write(response, result);
+        return null;
+    }
+
+    /**
+     * 通过ID查找实体
+     * @param id
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/findById")
+    public String findById(@RequestParam(value = "id")String id,HttpServletResponse response)throws Exception{
+         Article article = articleService.findById(Integer.parseInt(id));
+         JSONObject result = JSONObject.fromObject(article);
+         ResponseUtil.write(response,result);
         return null;
     }
 }

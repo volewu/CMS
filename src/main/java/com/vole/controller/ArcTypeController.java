@@ -37,6 +37,13 @@ public class ArcTypeController {
     @Resource
     private ArticleService articleService;
 
+    /**
+     * 根据帖子类别分页查询帖子
+     * @param id
+     * @param page
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/{id}")
     public ModelAndView list(@PathVariable("id") Integer id, @RequestParam(value = "page", required = false) String page) throws Exception {
         ModelAndView mav = new ModelAndView();

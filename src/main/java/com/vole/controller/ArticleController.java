@@ -28,6 +28,13 @@ public class ArticleController {
     @Resource
     private ArticleService articleService;
 
+    /**
+     * 根据条件查询帖子
+     * @param id
+     * @param request
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/{id}")
     public ModelAndView details(@PathVariable("id") Integer id, HttpServletRequest request) throws Exception {
         ModelAndView mav = new ModelAndView();

@@ -8,6 +8,10 @@
  百度站内搜索的配置
  qq 群与 qq 的配置
  
+ ####问题
+ * 关于图片上传？
+ 在测试环境下，图片是上传到 tomcat 的缓存中去，并不会出现在项目的指定路径下，到图片的请求地址不变。
+ 
  #### taglib 标签
  * <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>:用来处理函数的标签
  ```$xslt
