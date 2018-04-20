@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fbecebc-03c7-4060-ac0d-e54f19456ab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/DateJsonValueProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/admin/articleManage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/admin/modifyArticle.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/ArcTypeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/ArcTypeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/ArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/ArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/entity/PageBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/entity/PageBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArticleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArticleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/admin/writeArticle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/admin/writeArticle.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/WEB-INF/classes/com/vole/mappers/ArticleMapper.xml" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/WEB-INF/classes/com/vole/mappers/ArticleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/admin/writeArticle.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/admin/writeArticle.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/vole/mappers/ArticleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/vole/mappers/ArticleMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -227,8 +214,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="197" />
-    <option name="y" value="42" />
+    <option name="x" value="406" />
+    <option name="y" value="65" />
     <option name="width" value="1490" />
     <option name="height" value="977" />
   </component>
@@ -699,7 +686,7 @@
       <workItem from="1524101966886" duration="3830000" />
       <workItem from="1524107494205" duration="2466000" />
       <workItem from="1524116373830" duration="12251000" />
-      <workItem from="1524189118311" duration="7993000" />
+      <workItem from="1524189118311" duration="8230000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;登入功能实现，代码一定要认真检查，错一个字母就会产生 &quot;">
       <created>1523609363414</created>
@@ -736,11 +723,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524045479500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot; 后台帖子修改功能实现&quot;">
+      <created>1524216167423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524216167423</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98311000" />
+    <option name="totallyTimeSpent" value="98548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,8 +746,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="197" y="42" width="1490" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="406" y="65" width="1490" height="977" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
