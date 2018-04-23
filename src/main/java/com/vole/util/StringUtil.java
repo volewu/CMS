@@ -12,6 +12,7 @@ public class StringUtil {
 
     /**
      * 判断是否是空
+     *
      * @param str
      * @return
      */
@@ -42,5 +43,17 @@ public class StringUtil {
                 resultList.add(l);
         }
         return resultList;
+    }
+
+    /**
+     * 格式化模糊查询
+     * @param str
+     * @return
+     */
+    public static String formatLike(String str) {
+        if (isNotEmpty(str))
+            return "%" + str + "%";
+        else
+            return null;
     }
 }

@@ -15,4 +15,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select * from t_manager where userName=#{userName}
 	</select>
 
+	<update id="update" parameterType="Manager">
+		UPDATE t_manager
+		<set>
+			<if test="password!=null and password!='' ">
+				password=#{password},
+			</if>
+		</set>
+	</update>
+
 </mapper> 

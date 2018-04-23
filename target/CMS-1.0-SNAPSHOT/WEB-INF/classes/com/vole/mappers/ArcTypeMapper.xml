@@ -15,10 +15,44 @@
     <select id="list" parameterType="map" resultMap="ArcTypeResult">
         SELECT * FROM t_arctype
         ORDER BY sortNo ASC
+        <if test="start!=null and size!=null">
+            limit #{start},#{size}
+        </if>
     </select>
+
+    <select id="getTotal" parameterType="Map" resultType="Long">
+		SELECT COUNT(*) from t_arcType
+	</select>
 
     <select id="findById" parameterType="Integer" resultMap="ArcTypeResult">
         SELECT * FROM t_arctype WHERE id=#{id}
     </select>
+
+    <insert id="add" parameterType="ArcType">
+        INSERT INTO t_arcType VALUES(null,#{typeName},#{sortNo},#{keywords},#{description})
+    </insert>
+
+    <update id="update" parameterType="ArcType">
+        UPDATE t_arcType
+        <set>
+            <if test="typeName!=null and typeName!='' ">
+                typeName=#{typeName},
+            </if>
+            <if test="sortNo!=null">
+                sortNo=#{sortNo},
+            </if>
+            <if test="keywords!=null and keywords!='' ">
+                keywords=#{keywords},
+            </if>
+            <if test="description!=null and description!='' ">
+                description=#{description},
+            </if>
+        </set>
+        WHERE id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="Integer">
+        DELETE FROM t_arcType WHERE id=#{id}
+    </delete>
 
 </mapper>

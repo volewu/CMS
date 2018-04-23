@@ -65,4 +65,12 @@ public class ArticleServiceImpl implements ArticleService {
     public Integer add(Article article) {
         return articleDao.add(article);
     }
+
+    public Integer delete(Integer id) {
+        return articleDao.delete(id);
+    }
+
+    public Integer getNumByTypeId(Integer typeId) {
+        return articleDao.getNumByTypeId(typeId);
+    }
 }

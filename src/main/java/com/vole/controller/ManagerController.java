@@ -52,4 +52,5 @@ public class ManagerController {
         ResponseUtil.write(response, result);
         return null;
     }
+
 }

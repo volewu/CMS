@@ -15,4 +15,11 @@ public interface ManagerService {
      * @return
      */
      Manager getByUserName(String userName);
+
+    /**
+     * 更新管理员信息
+     * @param manager
+     * @return
+     */
+    Integer update(Manager manager);
 }

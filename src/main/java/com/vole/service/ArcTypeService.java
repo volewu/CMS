@@ -13,10 +13,17 @@ import java.util.Map;
 public interface ArcTypeService {
 
     /**
-     * 根据条据分页查询友情链接
+     * 根据条据分页查询帖子类别
      * @return
      */
     List<ArcType> list(Map<String, Object> map);
+
+    /**
+     * 获取总记录数
+     * @param map
+     * @return
+     */
+    Long getTotal(Map<String, Object> map);
 
     /**
      * 根据 id 查找帖子类型
@@ -24,4 +31,25 @@ public interface ArcTypeService {
      * @return
      */
     ArcType findById(Integer id);
+
+    /**
+     * 添加帖子类别
+     * @param arcType
+     * @return
+     */
+    Integer add(ArcType arcType);
+
+    /**
+     * 修改帖子类别
+     * @param arcType
+     * @return
+     */
+    Integer update(ArcType arcType);
+
+    /**
+     * 删除帖子类别
+     * @param id
+     * @return
+     */
+    Integer delete(Integer id);
 }

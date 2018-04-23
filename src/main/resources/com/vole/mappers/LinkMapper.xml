@@ -14,7 +14,38 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<select id="list" parameterType="map" resultMap="LinkResult">
 		SELECT * FROM t_link
 		ORDER BY sortNo ASC
+		<if test="start!=null || size!=null">
+			limit #{start},#{size}
+		</if>
 	</select>
+
+	<select id="getTotal" parameterType="Map" resultType="Long">
+		SELECT COUNT(*) FROM t_link
+	</select>
+
+	<insert id="add" parameterType="Link">
+		insert into t_link values(null,#{name},#{url},#{sortNo})
+	</insert>
+
+	<update id="update" parameterType="Link">
+		update t_link
+		<set>
+			<if test="name!=null and name!='' ">
+				name=#{name},
+			</if>
+			<if test="url!=null and url!='' ">
+				url=#{url},
+			</if>
+			<if test="sortNo!=null">
+				sortNo=#{sortNo},
+			</if>
+		</set>
+		where id=#{id}
+	</update>
+
+	<delete id="delete" parameterType="Integer">
+		delete from t_link where id=#{id}
+	</delete>
 
 
 </mapper> 

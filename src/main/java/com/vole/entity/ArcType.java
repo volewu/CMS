@@ -13,6 +13,14 @@ public class ArcType {
     private String keywords; // 关键字 页面 seo 用到
     private String description; // 类别描述 页面seo用到
 
+    public ArcType(Integer id, String typeName, Integer sortNo, String keywords, String description) {
+        this.id = id;
+        this.typeName = typeName;
+        this.sortNo = sortNo;
+        this.keywords = keywords;
+        this.description = description;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -45,11 +53,22 @@ public class ArcType {
         this.keywords = keywords;
     }
 
-    public String getDecription() {
+    public String getDescription() {
         return description;
     }
 
-    public void setDecription(String description) {
+    public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "ArcType{" +
+                "id=" + id +
+                ", typeName='" + typeName + '\'' +
+                ", sortNo=" + sortNo +
+                ", keywords='" + keywords + '\'' +
+                ", description='" + description + '\'' +
+                '}';
     }
 }

@@ -85,4 +85,18 @@ public interface ArticleService {
      * @return
      */
     Integer add(Article article);
+
+    /**
+     * 删除帖子
+     * @param id
+     * @return
+     */
+    Integer delete(Integer id);
+
+    /**
+     * 查询指定类别下的帖子数量
+     * @param typeId
+     * @return
+     */
+    Integer getNumByTypeId(Integer typeId);
 }

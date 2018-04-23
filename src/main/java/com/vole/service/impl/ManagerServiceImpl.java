@@ -4,9 +4,9 @@ import com.vole.dao.ManagerDao;
 import com.vole.entity.Manager;
 import com.vole.service.ManagerService;
 
-import javax.annotation.Resource;
-
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
 
 /**
  * 编写者： vole
@@ -21,6 +21,10 @@ public class ManagerServiceImpl implements ManagerService{
 
     public Manager getByUserName(String userName) {
         return managerDao.getByUserName(userName);
+    }
+
+    public Integer update(Manager manager) {
+        return managerDao.update(manager);
     }
 }
 

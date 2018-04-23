@@ -6,6 +6,7 @@ import com.vole.service.ArticleService;
 import com.vole.service.impl.InitComponent;
 import com.vole.util.DateUtil;
 import com.vole.util.ResponseUtil;
+import com.vole.util.StringUtil;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
@@ -44,7 +45,6 @@ public class ArticleAdminController {
 
     /**
      * 添加或者修改帖子信息
-     *
      * @param article
      * @param response
      * @return
@@ -53,7 +53,7 @@ public class ArticleAdminController {
     @RequestMapping("/save")
     public String add(@RequestParam("slideImageFile") MultipartFile slideImageFile, Article article,
                       HttpServletResponse response, HttpServletRequest request) throws Exception {
-        int resultTotal = 0; // 操作的记录条数
+        int resultTotal; // 操作的记录条数
         article.setPublishDate(new Date());
         // TODO: 2018/4/19  图片压缩 功能
         if (!slideImageFile.isEmpty()) {
@@ -64,7 +64,7 @@ public class ArticleAdminController {
             //文件上传在项目的位置
             slideImageFile.transferTo(new File(filePath + "static/userImages/" + imageName));
             article.setSlideImage(imageName);
-            System.out.println("-------" + imageName);
+//            System.out.println("-------" + imageName);
         }
         if (article.getId() == null) {//添加
             resultTotal = articleService.add(article);
@@ -86,7 +86,6 @@ public class ArticleAdminController {
 
     /**
      * 根据条件分页查询帖子
-     *
      * @param page
      * @param rows
      * @param response
@@ -95,10 +94,12 @@ public class ArticleAdminController {
     @RequestMapping("/list")
     public String list(@RequestParam(value = "page", required = false) String page,
                        @RequestParam(value = "rows", required = false) String rows,
-                       HttpServletResponse response) throws Exception {
+                       Article article, HttpServletResponse response) throws Exception {
         PageBean pageBean = new PageBean(Integer.parseInt(page), Integer.parseInt(rows));
         System.err.println(page + "---" + rows + "--" + pageBean);
         Map<String, Object> map = new HashMap<String, Object>();
+        map.put("title", StringUtil.formatLike(article.getTitle()));
+        System.err.println(StringUtil.formatLike(article.getTitle()));
         map.put("start", pageBean.getStart());
         map.put("size", pageBean.getPageSize());
         List<Article> articleList = articleService.list(map);
@@ -123,10 +124,30 @@ public class ArticleAdminController {
      * @throws Exception
      */
     @RequestMapping("/findById")
-    public String findById(@RequestParam(value = "id")String id,HttpServletResponse response)throws Exception{
-         Article article = articleService.findById(Integer.parseInt(id));
-         JSONObject result = JSONObject.fromObject(article);
-         ResponseUtil.write(response,result);
+    public String findById(@RequestParam(value = "id") String id, HttpServletResponse response) throws Exception {
+        Article article = articleService.findById(Integer.parseInt(id));
+        JSONObject result = JSONObject.fromObject(article);
+        ResponseUtil.write(response, result);
+        return null;
+    }
+
+    /**
+     * 删除帖子
+     * @param ids
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    @RequestMapping("/delete")
+    public String delete(@RequestParam(value = "ids") String ids, HttpServletResponse response) throws Exception {
+        String[] idsStr = ids.split(",");
+        for (String anIdsStr : idsStr) {
+            articleService.delete(Integer.parseInt(anIdsStr));
+        }
+        initComponent.refreshSystem(ContextLoader.getCurrentWebApplicationContext().getServletContext());
+        JSONObject result = new JSONObject();
+        result.put("success", true);
+        ResponseUtil.write(response, result);
         return null;
     }
 }

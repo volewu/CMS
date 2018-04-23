@@ -88,6 +88,9 @@
     <select id="list" parameterType="Map" resultMap="ArticleResult">
         SELECT * FROM t_article
         <where>
+            <if test="title!=null and title!='' ">
+                AND title LIKE #{title}
+            </if>
             <if test="typeId!=null">
                 AND typeId=#{typeId}
             </if>
@@ -101,6 +104,9 @@
     <select id="getTotal" parameterType="Map" resultType="Long">
         SELECT count(*) FROM t_article
         <where>
+            <if test="title!=null and title!='' ">
+                AND title LIKE #{title}
+            </if>
             <if test="typeId!=null">
                 typeId=#{typeId}
             </if>
@@ -110,5 +116,13 @@
     <insert id="add" parameterType="Article">
         INSERT INTO t_article VALUES (null,#{title},#{publishDate},#{content},#{summary},#{titleColor},#{click},#{isRecommend},#{isSlide},#{slideImage},#{arcType.id},#{keyWords})
     </insert>
+
+    <delete id="delete" parameterType="Integer">
+        DELETE FROM t_article WHERE id=#{id}
+    </delete>
+
+    <select id="getNumByTypeId" parameterType="Integer" resultType="Integer">
+        SELECT count(*) from t_article WHERE typeId=#{typeId}
+    </select>
 
 </mapper> 
