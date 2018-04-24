@@ -7,36 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fbecebc-03c7-4060-ac0d-e54f19456ab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageSample/cms.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/bglogo.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/images/bglogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/images/bglogo.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/images/logo.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/images/logo.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/images/logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/1.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/2.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/3.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/4.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/5.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/5.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/articleList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/articleList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/common/foot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/common/foot.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/common/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/common/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/admin/main.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/admin/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/articleList.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/articleList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/foot.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/foot.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/head.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/head.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/index.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/open1111.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/cms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/ManagerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/ManagerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ManagerAdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ManagerAdminController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/imageSample/cms.gif" afterPath="$PROJECT_DIR$/preview/cms.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/vole/util/CryptographyUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/util/MD5Util.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,37 +41,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleAdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java">
+      <file leaf-file-name="ManagerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/ManagerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3433#3449#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-912">
-              <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#DIV#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foot.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/foot.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="368">
+              <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -168,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/static/ueditor/jsp/config.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/service/impl/InitComponent.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/ArcTypeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/DateJsonValueProcessor.java" />
@@ -210,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/common/foot.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -251,8 +215,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="319" />
-    <option name="y" value="83" />
+    <option name="x" value="228" />
+    <option name="y" value="46" />
     <option name="width" value="1519" />
     <option name="height" value="959" />
   </component>
@@ -333,7 +297,7 @@
             <path>
               <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="imageSample" type="462c0819:PsiDirectoryNode" />
+              <item name="preview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,14 +384,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat8.5">
-    <configuration name="CryptographyUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.vole.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.vole.util.CryptographyUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.vole.util.MD5Util" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -612,13 +576,13 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat8.5" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CryptographyUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MD5Util" />
       <item index="2" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CryptographyUtil" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MD5Util" />
       </list>
     </recent_temporary>
   </component>
@@ -644,7 +608,7 @@
       <workItem from="1524216996857" duration="128000" />
       <workItem from="1524443776385" duration="19968000" />
       <workItem from="1524473549962" duration="2283000" />
-      <workItem from="1524532487933" duration="10362000" />
+      <workItem from="1524532487933" duration="12199000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;登入功能实现，代码一定要认真检查，错一个字母就会产生 &quot;">
       <created>1523609363414</created>
@@ -709,11 +673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524475835320</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;优化前台界面，修改项目说明&quot;">
+      <created>1524559008857</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524559008857</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131531000" />
+    <option name="totallyTimeSpent" value="133368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,7 +696,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="319" y="83" width="1519" height="959" extended-state="0" />
+    <frame x="228" y="46" width="1519" height="959" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -802,7 +773,9 @@
     <MESSAGE value="&quot; 后台帖子修改功能实现&quot;" />
     <MESSAGE value="&quot;网站功能基本全部实现，缺少优化，以及其他配置问题&quot;" />
     <MESSAGE value="&quot;添加数据库资料&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;添加数据库资料&quot;" />
+    <MESSAGE value="&quot;优化前台界面，修改项目说明&quot;" />
+    <MESSAGE value="&quot;优化参数&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;优化参数&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,26 +788,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="197" column="32" lean-forward="false" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/entity/ArcType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-          <folding>
-            <element signature="e#1218#1219#0" expanded="false" />
-            <element signature="e#1272#1273#0" expanded="false" />
-            <element signature="e#1318#1319#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/util/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -956,14 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/ManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ManagerAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1053,7 +998,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/util/CryptographyUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/util/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -1074,17 +1019,6 @@
         <state relative-caret-position="162">
           <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3433#3449#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,6 +1159,22 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="197" column="32" lean-forward="false" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/foot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-912">
@@ -1235,11 +1185,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/foot.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="808">
+          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3433#3449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

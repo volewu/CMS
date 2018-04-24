@@ -14,20 +14,16 @@
 
 **整体效果：**
 
-![cms](E:\githubSample\CMS\imageSample\cms.gif)
+![cms](https://github.com/volewu/CMS/blob/master/preview/cms.gif?raw=true)
 
 
  #### 三、未实的功能
 - [ ] 畅言的配置 
-
-
 - [ ] 百度站内搜索的配置
-
-
 - [ ] qq 群与 qq 的配置
 - [ ] 把 UEditor 换成 MD
-
- ####四、问题
+- [ ] 极验(登入验证滑动图片)
+ #### 四、问题
  * 关于图片上传？
     在测试环境下，图片是上传到 tomcat 的缓存中去，并不会出现在项目的指定路径下，到图片的请求地址不变。
 

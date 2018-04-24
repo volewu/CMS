@@ -2,7 +2,7 @@ package com.vole.controller;
 
 import com.vole.entity.Manager;
 import com.vole.service.ManagerService;
-import com.vole.util.CryptographyUtil;
+import com.vole.util.MD5Util;
 import com.vole.util.ResponseUtil;
 
 import net.sf.json.JSONObject;
@@ -39,7 +39,7 @@ public class ManagerController {
     @RequestMapping("/login")
     public String login(Manager manager, HttpServletResponse response) throws Exception {
         Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken(manager.getUserName(), CryptographyUtil.md5(manager.getPassword(), CryptographyUtil.SALT));
+        UsernamePasswordToken token = new UsernamePasswordToken(manager.getUserName(), MD5Util.md5(manager.getPassword(), MD5Util.SALT));
         JSONObject result = new JSONObject();
         try {
             subject.login(token);

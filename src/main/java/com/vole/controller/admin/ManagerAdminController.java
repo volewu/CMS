@@ -2,7 +2,7 @@ package com.vole.controller.admin;
 
 import com.vole.entity.Manager;
 import com.vole.service.ManagerService;
-import com.vole.util.CryptographyUtil;
+import com.vole.util.MD5Util;
 import com.vole.util.ResponseUtil;
 
 import net.sf.json.JSONObject;
@@ -36,7 +36,7 @@ public class ManagerAdminController {
     @RequestMapping("/modifyPassword")
     public String modifyPassword(String newPassword,HttpServletResponse response)throws Exception{
         Manager manager=new Manager();
-        manager.setPassword(CryptographyUtil.md5(newPassword, CryptographyUtil.SALT));
+        manager.setPassword(MD5Util.md5(newPassword, MD5Util.SALT));
         int resultTotal=managerService.update(manager);
         JSONObject result=new JSONObject();
         if(resultTotal>0){
