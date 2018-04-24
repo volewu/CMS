@@ -22,7 +22,7 @@
 
 <div class="header">
     <div class="w960">
-        <div class="title">
+        <div class="title" style="width: 960px">
             <a href="${pageContext.request.contextPath}/index.jsp"><img
                     src="${pageContext.request.contextPath}/static/images/logo.jpg"></a>
         </div>

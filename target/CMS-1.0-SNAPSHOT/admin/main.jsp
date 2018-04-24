@@ -11,7 +11,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>后台管理界面-Open1111官方网站 -南通小锋网络科技有限公司</title>
+    <title>后台管理界面</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.3.3/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.3.3/themes/icon.css">
     <script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.3.3/jquery.min.js"></script>
@@ -96,8 +96,11 @@
 <div region="north" style="height: 78px;background-color: #E0ECFF">
     <table style="padding: 5px" width="100%">
         <tr>
-            <td width="50%">
-                <img alt="logo" src="${pageContext.request.contextPath}/static/images/bglogo.png">
+            <td width="25%">
+                <img alt="logo" src="${pageContext.request.contextPath}/static/images/bglogo.jpg">
+            </td>
+            <td valign="bottom" align="left" width="25%">
+                <font size="5">&nbsp;&nbsp;<strong>JavaSSM 建站</strong></font>
             </td>
             <td valign="bottom" align="right" width="50%">
                 <font size="3">&nbsp;&nbsp;<strong>欢迎：</strong>${currentUser.userName }</font>
@@ -123,7 +126,7 @@
     </div>
 </div>
 <div region="south" style="height: 25px;padding: 5px" align="center">
-    Copyright © 2012-2016 南通小锋网络科技有限公司  版权所有
+    Copyright © 2018-20xx vole  版权所有
 </div>
 
 

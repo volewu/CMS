@@ -55,7 +55,6 @@ public class ArticleAdminController {
                       HttpServletResponse response, HttpServletRequest request) throws Exception {
         int resultTotal; // 操作的记录条数
         article.setPublishDate(new Date());
-        // TODO: 2018/4/19  图片压缩 功能
         if (!slideImageFile.isEmpty()) {
             //获取绝对路径
             String filePath = request.getServletContext().getRealPath("/");

@@ -7,9 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fbecebc-03c7-4060-ac0d-e54f19456ab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imageSample/cms.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/bglogo.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/static/images/bglogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/images/bglogo.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/images/logo.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/userImages/5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/userImages/5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/images/logo.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/images/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/1.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/2.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/3.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/4.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/5.jpg" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/static/userImages/5.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_cms.sql" afterPath="$PROJECT_DIR$/db_cms.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/articleList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/articleList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/common/foot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/common/foot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/common/head.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/common/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/admin/main.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/admin/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/articleList.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/articleList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/foot.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/foot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/head.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/common/head.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/index.jsp" afterPath="$PROJECT_DIR$/target/CMS-1.0-SNAPSHOT/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/open1111.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/cms.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,24 +65,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleAdminController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleAdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+            <state relative-caret-position="808">
+              <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3469#3485#0" expanded="true" />
+                <element signature="e#3433#3449#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/ArticleController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="-912">
+              <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#DIV#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foot.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/foot.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -90,6 +129,15 @@
       <find>insert</find>
       <find>ArcType</find>
       <find>arcTypeService</find>
+      <find>Open111</find>
+      <find>2016</find>
+      <find>static</find>
+      <find>logo</find>
+      <find>logo.jpg</find>
+      <find>header_top.png</find>
+      <find>decription</find>
+      <find>bglogo</find>
+      <find>1.jpg</find>
     </findStrings>
     <replaceStrings>
       <replace>${spring.version}</replace>
@@ -111,12 +159,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/vole/service/impl/InitComponet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vole/util/NavUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cms.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/util/PageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/articleList.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/realm/MyRealm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/demo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/dd.jsp" />
@@ -140,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/service/impl/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArcTypeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/arcTypeManage.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -159,9 +202,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/vole/service/impl/ManagerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/ManagerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ManagerAdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2206f059-e677-46b0-99a0-c99498f12b65/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/articleList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/foot.jsp" />
       </list>
     </option>
   </component>
@@ -203,8 +251,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="27" />
+    <option name="x" value="319" />
+    <option name="y" value="83" />
     <option name="width" value="1519" />
     <option name="height" value="959" />
   </component>
@@ -275,7 +323,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="imageSample" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -292,19 +358,6 @@
               <item name="CMS" type="58d84e3e:PackageViewProjectNode" />
               <item name="CMS" type="616d4139:PackageViewModuleNode" />
               <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -590,7 +643,8 @@
       <workItem from="1524189118311" duration="8472000" />
       <workItem from="1524216996857" duration="128000" />
       <workItem from="1524443776385" duration="19968000" />
-      <workItem from="1524473549962" duration="2235000" />
+      <workItem from="1524473549962" duration="2283000" />
+      <workItem from="1524532487933" duration="10362000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;登入功能实现，代码一定要认真检查，错一个字母就会产生 &quot;">
       <created>1523609363414</created>
@@ -648,11 +702,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524475486541</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;添加数据库资料&quot;">
+      <created>1524475835320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524475835320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121121000" />
+    <option name="totallyTimeSpent" value="131531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,7 +725,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="27" width="1519" height="959" extended-state="0" />
+    <frame x="319" y="83" width="1519" height="959" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -677,19 +738,19 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54656863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32142857" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23028786" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3204005" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3554443" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2966208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32680538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42052567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26387936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2673064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -697,7 +758,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42052567" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,7 +801,8 @@
     <MESSAGE value="&quot; 后台帖子编写、发布功能已实现&quot;" />
     <MESSAGE value="&quot; 后台帖子修改功能实现&quot;" />
     <MESSAGE value="&quot;网站功能基本全部实现，缺少优化，以及其他配置问题&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;网站功能基本全部实现，缺少优化，以及其他配置问题&quot;" />
+    <MESSAGE value="&quot;添加数据库资料&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;添加数据库资料&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -753,138 +815,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/article.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="17" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/entity/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/ArcTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/writeArticle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1228">
-          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/DateJsonValueProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/service/impl/ArcTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#895#896#0" expanded="false" />
-            <element signature="e#944#945#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="73" column="47" lean-forward="false" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
-          <folding>
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="100" column="43" lean-forward="false" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/dao/ArticleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="95" column="4" lean-forward="false" selection-start-line="95" selection-start-column="4" selection-end-line="100" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/modifyArticle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1527">
-          <caret line="117" column="19" lean-forward="false" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/articleManage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1266">
-          <caret line="79" column="70" lean-forward="false" selection-start-line="79" selection-start-column="70" selection-end-line="79" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/service/ArcTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/dao/ArcTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/arcTypeManage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="157" column="21" lean-forward="false" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -898,9 +828,9 @@
         <state relative-caret-position="68">
           <caret line="55" column="36" lean-forward="false" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
           <folding>
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="false" />
+            <element signature="e#1272#1273#0" expanded="false" />
+            <element signature="e#1318#1319#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,10 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="31" column="35" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#355#364#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,36 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
           <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArticleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="43" column="54" lean-forward="true" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-          <folding>
-            <marker date="1524454646179" expanded="true" signature="1017:1076" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="1148:1227" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="1295:1370" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="1462:1544" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="1636:1674" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="1778:1846" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="1954:2021" ph="SELECT * FRO... t_article" />
-            <marker date="1524454646179" expanded="true" signature="2095:3198" ph="UPDATE t_art... " />
-            <marker date="1524454646179" expanded="true" signature="4096:4266" ph="INSERT INTO t_article... " />
-            <marker date="1524454646179" expanded="true" signature="4339:4375" ph="DELETE FROM " />
-            <marker date="1524454646179" expanded="true" signature="4477:4530" ph="SELECT count... t_article" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,12 +884,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#1;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,8 +893,8 @@
         <state relative-caret-position="437">
           <caret line="113" column="78" lean-forward="false" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1545#1561#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1545#1561#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,7 +904,7 @@
         <state relative-caret-position="482">
           <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
           <folding>
-            <element signature="e#1430#1445#0" expanded="true" />
+            <element signature="e#1430#1445#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1028,20 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArcTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <marker date="1524464400345" expanded="true" signature="847:877" ph="SELECT COUNT... t_arcType" />
-            <marker date="1524464400345" expanded="true" signature="975:1013" ph="SELECT * FRO... t_arctype" />
-            <marker date="1524464400345" expanded="true" signature="1083:1166" ph="INSERT INTO t_arcType... " />
-            <marker date="1524464400345" expanded="true" signature="1239:1747" ph="UPDATE t_arc... " />
-            <marker date="1524464400345" expanded="true" signature="1820:1856" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,10 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,16 +969,8 @@
         <state relative-caret-position="380">
           <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/cms.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,14 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="654">
           <caret line="78" column="77" lean-forward="false" selection-start-line="78" selection-start-column="77" selection-end-line="78" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="88" column="15" lean-forward="true" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1213,14 +1069,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/writeArticle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="104" column="26" lean-forward="false" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vole/controller/admin/ArticleAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+        <state relative-caret-position="808">
+          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3469#3485#0" expanded="true" />
+            <element signature="e#3433#3449#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/article.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="100" column="43" lean-forward="true" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/header_top.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/bglogo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/jquery-easyui-1.3.3/demo/splitbutton/actions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="59" column="56" lean-forward="false" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/articleList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/cms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/bglogo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArcTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <marker date="1524464400345" expanded="true" signature="847:877" ph="SELECT COUNT... t_arcType" />
+            <marker date="1524464400345" expanded="true" signature="975:1013" ph="SELECT * FRO... t_arctype" />
+            <marker date="1524464400345" expanded="true" signature="1083:1166" ph="INSERT INTO t_arcType... " />
+            <marker date="1524464400345" expanded="true" signature="1239:1747" ph="UPDATE t_arc... " />
+            <marker date="1524464400345" expanded="true" signature="1820:1856" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/vole/mappers/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="81" lean-forward="false" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
+          <folding>
+            <marker date="1524454646179" expanded="true" signature="1017:1076" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="1148:1227" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="1295:1370" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="1462:1544" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="1636:1674" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="1778:1846" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="1954:2021" ph="SELECT * FRO... t_article" />
+            <marker date="1524454646179" expanded="true" signature="2095:3198" ph="UPDATE t_art... " />
+            <marker date="1524454646179" expanded="true" signature="4096:4266" ph="INSERT INTO t_article... " />
+            <marker date="1524454646179" expanded="true" signature="4339:4375" ph="DELETE FROM " />
+            <marker date="1524454646179" expanded="true" signature="4477:4530" ph="SELECT count... t_article" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/userImages/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ueditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24771" column="16" lean-forward="false" selection-start-line="24771" selection-start-column="16" selection-end-line="24771" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/login/js/controllers/ui-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/userImages/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/userImages/3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="48" column="30" lean-forward="false" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#DIV#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/foot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

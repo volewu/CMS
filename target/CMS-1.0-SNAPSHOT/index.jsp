@@ -15,17 +15,16 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/cms.css">
     <script src="${pageContext.request.contextPath}/static/js/jQuery.js"></script>
 </head>
-<body>
+<body >
 <jsp:include page="/common/head.jsp"/>
 <jsp:include page="/common/menu.jsp"/>
 
-<div class="content">
+<div class="content" >
     <div class="w960">
 
         <div class="left">
             <DIV style="width: 330px; height: 228px;" class="tuhuo">
-                <A href="" target="_blank"><IMG style="width: 330px; height: 208px;" id="fou_img"
-                                                src=""></A>
+                <A href="" target="_blank"><IMG style="width: 330px; height: 208px;" id="fou_img" src=""></A>
 
                 <c:forEach var="article" items="${slideArticleList}">
                     <A href="${pageContext.request.contextPath}/article/${article.id}.html">

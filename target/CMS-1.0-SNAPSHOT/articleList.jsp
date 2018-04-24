@@ -11,7 +11,7 @@
     <META NAME="Author" CONTENT="vole">
     <meta name="keywords" content="${arcType.keywords}"/>
     <meta name="description"
-          content="${arcType.decription}"/>
+          content="${arcType.description}"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/cms.css">
     <script src="${pageContext.request.contextPath}/static/js/jQuery.js"></script>
 </head>
