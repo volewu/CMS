@@ -13,14 +13,6 @@ public class ArcType {
     private String keywords; // 关键字 页面 seo 用到
     private String description; // 类别描述 页面seo用到
 
-    public ArcType(Integer id, String typeName, Integer sortNo, String keywords, String description) {
-        this.id = id;
-        this.typeName = typeName;
-        this.sortNo = sortNo;
-        this.keywords = keywords;
-        this.description = description;
-    }
-
     public Integer getId() {
         return id;
     }
