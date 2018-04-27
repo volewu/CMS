@@ -45,6 +45,7 @@ public class ArticleAdminController {
 
     /**
      * 添加或者修改帖子信息
+     *
      * @param article
      * @param response
      * @return
@@ -70,14 +71,13 @@ public class ArticleAdminController {
         } else {//修改
             resultTotal = articleService.update(article);
         }
-        StringBuffer result = new StringBuffer();
+        JSONObject result = new JSONObject();
         if (resultTotal > 0) {
             //调用刷新缓存
             initComponent.refreshSystem(ContextLoader.getCurrentWebApplicationContext().getServletContext());
-            result.append("<script language='javascript'>alert('提交成功');</script>");
-            //可以优化该地方：返回提示是否继续写帖子
+            result.put("success", true);
         } else {
-            result.append("<script language='javascript'>alert('提交失败，请联系管理员');</script>");
+            result.put("success", false);
         }
         ResponseUtil.write(response, result);
         return null;
@@ -85,6 +85,7 @@ public class ArticleAdminController {
 
     /**
      * 根据条件分页查询帖子
+     *
      * @param page
      * @param rows
      * @param response
@@ -111,12 +112,14 @@ public class ArticleAdminController {
         System.err.println(jsonArray);
         result.put("rows", jsonArray);
         result.put("total", total);
+        System.err.println(result);
         ResponseUtil.write(response, result);
         return null;
     }
 
     /**
      * 通过ID查找实体
+     *
      * @param id
      * @param response
      * @return
@@ -132,6 +135,7 @@ public class ArticleAdminController {
 
     /**
      * 删除帖子
+     *
      * @param ids
      * @param response
      * @return

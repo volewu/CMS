@@ -33,36 +33,58 @@
             }
         }
 
-        function submitData() {
-            var title = $("#title").val();
-            var arcTypeId = $("#arcTypeId").combobox("getValue");
-            var summary = $("#summary").val();
-            var editor = UE.getEditor('editor').getContent();
 
-            if(title==null || title==''){
-                alert("请输入标题");
-            }else if(arcTypeId==null || arcTypeId==''){
-                alert("请选择帖子类别");
-            }else if(summary==null || summary==''){
-                alert("请输入摘要");
-            }else if(editor==null || editor==''){
-                alert("请输入内容");
-            }else{
-                $("#content").val(editor);
-                $("#fm").submit();
-            }
+        function submitData() {
+            $("#fm").form("submit",{
+                url:"${pageContext.request.contextPath}/admin/article/save.do",
+                onSubmit:function () {
+                    var arcTypeId = $("#arcTypeId").combobox("getValue");
+                    var editor = UE.getEditor('editor').getContent();
+                    if(arcTypeId==null || arcTypeId==''){
+                        $.messager.alert("系统提示", "请选择帖子类别！");
+                        return false;
+                    }
+                    if(editor==null || editor==''){
+                        $.messager.alert("系统提示", "请输入内容！");
+                        return false;
+                    }
+                    $("#content").val(editor);
+                    return $(this).form("validate");
+                },
+                success:function (result) {
+                    var result=eval('('+result+')');
+                    console.log(result);
+                    if(result.success){
+                        $.messager.alert("系统提示","提交成功！");
+                        resetValue();
+                    }else {
+                        $.messager.alert("系统提示","保存失败！");
+                        return;
+                    }
+                }
+            });
         }
 
+        function resetValue() {
+            $("#title").val("");
+            $("#arcTypeId").combobox("setValue","");
+            $("#isSlide").prop("checked", false);
+            $("#isRecommend").prop("checked", true);
+            $("#summary").val("");
+            $("#keyWords").val("");
+            $("#titleColor").val("");
+            UE.getEditor('editor').setContent("");
+        }
 
     </script>
 </head>
 <body style="margin: 1px;">
 <div id="p" class="easyui-panel" title="编写帖子" style="padding: 5px">
-    <form action="${pageContext.request.contextPath}/admin/article/save.do" id="fm" method="post" enctype="multipart/form-data">
+    <form id="fm" method="post" enctype="multipart/form-data">
         <table cellspacing="10px">
             <tr>
                 <td width="80px">帖子标题: </td>
-                <td><input type="text" id="title" name="title" style="width: 400px"/></td>
+                <td><input type="text" id="title" name="title" style="width: 400px" class="easyui-validatebox" required="true"/></td>
             </tr>
 
             <tr>
@@ -95,7 +117,7 @@
             <tr>
                 <td valign="top">帖子摘要：</td>
                 <td>
-                    <textarea rows="3" cols="40" id="summary" name="summary"></textarea>
+                    <textarea rows="3" cols="40" id="summary" name="summary" class="easyui-validatebox" required="true"></textarea>
                 </td>
             </tr>
 
@@ -119,7 +141,7 @@
             <tr>
                 <td>标题颜色：</td>
                 <td>
-                    <input type="text" id=titleColor name="titleColor"/><input id="bn" type="button" value="颜色"/>
+                    <input type="text" id="titleColor" name="titleColor"/><input id="bn" type="button" value="颜色"/>
                 </td>
             </tr>
             <tr>
